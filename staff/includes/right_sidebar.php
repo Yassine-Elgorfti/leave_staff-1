@@ -2,7 +2,7 @@
 		<div class="sidebar-title">
 			<h3 class="weight-600 font-16 text-blue">
 				Layout Settings
-				<span class="btn-block font-weight-400 font-12">User Interface Settings</span>
+				<span class="btn-block font-weight-400 font-12">Paramètres de l'interface utilisateur</span>
 			</h3>
 			<div class="close-sidebar" data-toggle="right-sidebar-close">
 				<i class="icon-copy ion-close-round"></i>
@@ -10,16 +10,16 @@
 		</div>
 		<div class="right-sidebar-body customscroll">
 			<div class="right-sidebar-body-content">
-				<h4 class="weight-600 font-18 pb-10">Header Background</h4>
+				<h4 class="weight-600 font-18 pb-10">Arrière-plan de l'en-tête</h4>
 				<div class="sidebar-btn-group pb-30 mb-10">
-					<a href="javascript:void(0);" class="btn btn-outline-primary header-white active">White</a>
-					<a href="javascript:void(0);" class="btn btn-outline-primary header-dark">Dark</a>
+					<a href="javascript:void(0);" class="btn btn-outline-primary header-white active">Blanche</a>
+					<a href="javascript:void(0);" class="btn btn-outline-primary header-dark">Sombre</a>
 				</div>
 
-				<h4 class="weight-600 font-18 pb-10">Sidebar Background</h4>
+				<h4 class="weight-600 font-18 pb-10">Arrière-plan de la barre latérale</h4>
 				<div class="sidebar-btn-group pb-30 mb-10">
-					<a href="javascript:void(0);" class="btn btn-outline-primary sidebar-light ">White</a>
-					<a href="javascript:void(0);" class="btn btn-outline-primary sidebar-dark active">Dark</a>
+					<a href="javascript:void(0);" class="btn btn-outline-primary sidebar-light ">Blanche</a>
+					<a href="javascript:void(0);" class="btn btn-outline-primary sidebar-dark active">Sombre</a>
 				</div>
 
 				<h4 class="weight-600 font-18 pb-10">Menu Dropdown Icon</h4>
@@ -67,7 +67,7 @@
 				</div>
 
 				<div class="reset-options pt-30 text-center">
-					<button class="btn btn-danger" id="reset-settings">Reset Settings</button>
+					<button class="btn btn-danger" id="reset-settings">Réinitialiser les options</button>
 				</div>
 			</div>
 		</div>

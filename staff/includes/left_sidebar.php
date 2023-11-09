@@ -13,17 +13,17 @@
 				<ul id="accordion-menu">
 					<li class="dropdown">
 						<a href="index.php" class="dropdown-toggle no-arrow">
-							<span class="micon dw dw-house-1"></span><span class="mtext">Dashboard</span>
+							<span class="micon dw dw-house-1"></span><span class="mtext">Accueil</span>
 						</a>
 						
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-apartment"></span><span class="mtext"> Leave </span>
+							<span class="micon dw dw-apartment"></span><span class="mtext"> Besoin </span>
 						</a>
 						<ul class="submenu">
-							<li><a href="apply_leave.php">Apply Leave</a></li>
-							<li><a href="leave_history.php">Leave History</a></li>
+							<li><a href="apply_leave.php">Postuler le besoin</a></li>
+							<li><a href="leave_history.php">Historique de Besoin</a></li>
 						</ul>
 					</li>
 
@@ -33,11 +33,11 @@
 					<li>
 						<div class="sidebar-small-cap">Extra</div>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="https://aci.edu.gh/" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-edit-2"></span><span class="mtext">Visit Us</span>
 						</a>
-					</li>
+					</li> -->
 					<li>
 						<a href="https://aci.edu.gh/faculty" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-paper-plane1"></span>

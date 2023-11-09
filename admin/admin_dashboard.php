@@ -36,14 +36,14 @@
 						?>
 
 						<h4 class="font-20 weight-500 mb-10 text-capitalize">
-							Welcome back <div class="weight-600 font-30 text-blue"><?php echo $row['FirstName']. " " .$row['LastName']; ?>,</div>
+							Bienvenue <div class="weight-600 font-30 text-blue"><?php echo $row['FirstName']. " " .$row['LastName']; ?>,</div>
 						</h4>
-						<p class="font-18 max-width-600">you are in an institution established to serve the wider Christian community in Ghana and Africa.</p>
+						<p class="font-18 max-width-600">le platforme de besoin des employés de banque populaire</p>
 					</div>
 				</div>
 			</div>
 			<div class="title pb-20">
-				<h2 class="h3 mb-0">Data Information</h2>
+				<h2 class="h3 mb-0">Informations de données</h2>
 			</div>
 			<div class="row pb-10">
 				<div class="col-xl-3 col-lg-3 col-md-6 mb-20">
@@ -84,7 +84,7 @@
 						<div class="d-flex flex-wrap">
 							<div class="widget-data">
 								<div class="weight-700 font-24 text-dark"><?php echo htmlentities($leavecount); ?></div>
-								<div class="font-14 text-secondary weight-500">Approved Leave</div>
+								<div class="font-14 text-secondary weight-500">Besoin approuvé</div>
 							</div>
 							<div class="widget-icon">
 								<div class="icon" data-color="#09cc06"><span class="icon-copy fa fa-hourglass"></span></div>
@@ -108,7 +108,7 @@
 						<div class="d-flex flex-wrap">
 							<div class="widget-data">
 								<div class="weight-700 font-24 text-dark"><?php echo($leavecount); ?></div>
-								<div class="font-14 text-secondary weight-500">Pending Leave</div>
+								<div class="font-14 text-secondary weight-500">Besoin en attente</div>
 							</div>
 							<div class="widget-icon">
 								<div class="icon"><i class="icon-copy fa fa-hourglass-end" aria-hidden="true"></i></div>
@@ -132,7 +132,7 @@
 						<div class="d-flex flex-wrap">
 							<div class="widget-data">
 								<div class="weight-700 font-24 text-dark"><?php echo($leavecount); ?></div>
-								<div class="font-14 text-secondary weight-500">Rejected Leave</div>
+								<div class="font-14 text-secondary weight-500">Besoin refusé</div>
 							</div>
 							<div class="widget-icon">
 								<div class="icon" data-color="#ff5b5b"><i class="icon-copy fa fa-hourglass-o" aria-hidden="true"></i></div>
@@ -146,7 +146,7 @@
 				<div class="col-lg-4 col-md-6 mb-20">
 					<div class="card-box height-100-p pd-20 min-height-200px">
 						<div class="d-flex justify-content-between pb-10">
-							<div class="h5 mb-0">Department Heads</div>
+							<div class="h5 mb-0">Chefs de département</div>
 							<div class="table-actions">
 								<a title="VIEW" href="staff.php"><i class="icon-copy ion-disc" data-color="#17a2b8"></i></a>	
 							</div>
@@ -180,7 +180,7 @@
 				<div class="col-lg-4 col-md-6 mb-20">
 					<div class="card-box height-100-p pd-20 min-height-200px">
 						<div class="d-flex justify-content-between">
-							<div class="h5 mb-0">Application Setup</div>
+							<div class="h5 mb-0">Configuration de l'application</div>
 							<div class="table-actions">
 								<a title="VIEW" href="staff.php"><i class="icon-copy ion-disc" data-color="#17a2b8"></i></a>	
 							</div>
@@ -228,18 +228,18 @@
 
 			<div class="card-box mb-30">
 				<div class="pd-20">
-						<h2 class="text-blue h4">LATEST LEAVE APPLICATIONS</h2>
+						<h2 class="text-blue h4">Dernière demande de besoin</h2>
 					</div>
 				<div class="pb-20">
 					<table class="data-table table stripe hover nowrap">
 						<thead>
 							<tr>
-								<th class="table-plus datatable-nosort">STAFF NAME</th>
-								<th>LEAVE TYPE</th>
-								<th>APPLIED DATE</th>
-								<th>HOD STATUS</th>
-								<th>REG. STATUS</th>
-								<th class="datatable-nosort">ACTION</th>
+								<th class="table-plus datatable-nosort">Nom du personnel</th>
+								<th>Type de besoin</th>
+								<th>Date d'application</th>
+								<th>Statut de chef</th>
+								<th>Statut réglementaire</th>
+								<th class="datatable-nosort">Action</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -268,21 +268,21 @@
 								<td><?php $stats=$row['Status'];
 	                             if($stats==1){
 	                              ?>
-	                                  <span style="color: green">Approved</span>
+	                                  <span style="color: green">Approuvée</span>
 	                                  <?php } if($stats==2)  { ?>
-	                                 <span style="color: red">Rejected</span>
+	                                 <span style="color: red">Refusée</span>
 	                                  <?php } if($stats==0)  { ?>
-	                             <span style="color: blue">Pending</span>
+	                             <span style="color: blue">En cours</span>
 	                             <?php } ?>
 	                            </td>
 	                            <td><?php $stats=$row['admin_status'];
 	                             if($stats==1){
 	                              ?>
-	                                  <span style="color: green">Approved</span>
+	                                  <span style="color: green">Approuvée</span>
 	                                  <?php } if($stats==2)  { ?>
-	                                 <span style="color: red">Rejected</span>
+	                                 <span style="color: red">Refusée</span>
 	                                  <?php } if($stats==0)  { ?>
-	                             <span style="color: blue">Pending</span>
+	                             <span style="color: blue">En cours</span>
 	                             <?php } ?>
 	                            </td>
 								<td>
@@ -291,8 +291,8 @@
 											<i class="dw dw-more"></i>
 										</a>
 										<div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
-											<a class="dropdown-item" href="leave_details.php?leaveid=<?php echo $row['lid']; ?>"><i class="dw dw-eye"></i> View</a>
-											<a class="dropdown-item" href="admin_dashboard.php?leaveid=<?php echo $row['lid']; ?>"><i class="dw dw-delete-3"></i> Delete</a>
+											<a class="dropdown-item" href="leave_details.php?leaveid=<?php echo $row['lid']; ?>"><i class="dw dw-eye"></i> Voir</a>
+											<a class="dropdown-item" href="admin_dashboard.php?leaveid=<?php echo $row['lid']; ?>"><i class="dw dw-delete-3"></i> Supprimer</a>
 										</div>
 									</div>
 								</td>

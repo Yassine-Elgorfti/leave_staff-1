@@ -84,7 +84,7 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
 							<div class="card-box pd-30 pt-10 height-100-p">
-								<h2 class="mb-30 h4">New Department</h2>
+								<h2 class="mb-30 h4">Nouveau département</h2>
 								<section>
 									<form name="save" method="post">
 									<div class="row">
@@ -98,7 +98,7 @@
 									<div class="row">
 										<div class="col-md-12">
 											<div class="form-group">
-												<label>Department Short Name</label>
+												<label>Abréviation du département</label>
 												<input name="departmentshortname" type="text" class="form-control" required="true" autocomplete="off" style="text-transform:uppercase">
 											</div>
 										</div>
@@ -115,7 +115,7 @@
 						
 						<div class="col-lg-8 col-md-6 col-sm-12 mb-30">
 							<div class="card-box pd-30 pt-10 height-100-p">
-								<h2 class="mb-30 h4">Department List</h2>
+								<h2 class="mb-30 h4">Liste des départements</h2>
 								<div class="pb-20">
 									<table class="data-table table stripe hover nowrap">
 										<thead>

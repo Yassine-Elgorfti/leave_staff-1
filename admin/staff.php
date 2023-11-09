@@ -56,7 +56,7 @@ if (isset($_GET['delete'])) {
 						<div class="d-flex flex-wrap">
 							<div class="widget-data">
 								<div class="weight-700 font-24 text-dark"><?php echo($empcount);?></div>
-								<div class="font-14 text-secondary weight-500">Total Employees</div>
+								<div class="font-14 text-secondary weight-500">Total des employés</div>
 							</div>
 							<div class="widget-icon">
 								<div class="icon" data-color="#00eccf"><i class="icon-copy dw dw-user-2"></i></div>
@@ -94,7 +94,7 @@ if (isset($_GET['delete'])) {
 						<div class="d-flex flex-wrap">
 							<div class="widget-data">
 								<div class="weight-700 font-24 text-dark"><?php echo($count_reg_hod); ?></div>
-								<div class="font-14 text-secondary weight-500">Department Heads</div>
+								<div class="font-14 text-secondary weight-500">Chefs de département</div>
 							</div>
 							<div class="widget-icon">
 								<div class="icon"><i class="icon-copy fa fa-hourglass-end" aria-hidden="true"></i></div>
@@ -113,7 +113,7 @@ if (isset($_GET['delete'])) {
 						<div class="d-flex flex-wrap">
 							<div class="widget-data">
 								<div class="weight-700 font-24 text-dark"><?php echo($count_reg_admin); ?></div>
-								<div class="font-14 text-secondary weight-500">Administrators</div>
+								<div class="font-14 text-secondary weight-500">Administrateurs</div>
 							</div>
 							<div class="widget-icon">
 								<div class="icon" data-color="#ff5b5b"><i class="icon-copy fa fa-hourglass-o" aria-hidden="true"></i></div>
@@ -125,18 +125,18 @@ if (isset($_GET['delete'])) {
 
 			<div class="card-box mb-30">
 				<div class="pd-20">
-						<h2 class="text-blue h4">ALL EMPLOYEES</h2>
+						<h2 class="text-blue h4">Tous les employés</h2>
 					</div>
 				<div class="pb-20">
 					<table class="data-table table stripe hover nowrap">
 						<thead>
 							<tr>
-								<th class="table-plus">FULL NAME</th>
-								<th>EMAIL</th>
-								<th>DEPARTMENT</th>
-								<th>POSITION</th>
-								<th>AVE. LEAVE</th>
-								<th class="datatable-nosort">ACTION</th>
+								<th class="table-plus">Noms complets</th>
+								<th>Email</th>
+								<th>Département</th>
+								<th>Position</th>
+								<th>AVE. Besoin</th>
+								<th class="datatable-nosort">Action</th>
 							</tr>
 						</thead>
 						<tbody>

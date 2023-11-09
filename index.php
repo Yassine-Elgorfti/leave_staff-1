@@ -92,7 +92,7 @@ if(isset($_POST['signin']))
 				<div class="col-md-6 col-lg-5">
 					<div class="login-box bg-white box-shadow border-radius-10">
 						<div class="login-title">
-							<h2 class="text-center text-primary">Welcome To LeavePortal</h2>
+							<h2 class="text-center text-primary">Bienvenue</h2>
 						</div>
 						<form name="signin" method="post">
 						
@@ -108,12 +108,12 @@ if(isset($_POST['signin']))
 									<span class="input-group-text"><i class="dw dw-padlock1"></i></span>
 								</div>
 							</div>
-							<div class="row pb-30">
+							<!-- <div class="row pb-30">
 								
 								<div class="col-6">
-									<div class="forgot-password"><a href="forgot-password.html">Forgot Password</a></div>
+									<div class="forgot-password"><a href="forgot-password.html">Mot de passe oublié</a></div>
 								</div>
-							</div>
+							</div> -->
 							<div class="row">
 								<div class="col-sm-12">
 									<div class="input-group mb-0">

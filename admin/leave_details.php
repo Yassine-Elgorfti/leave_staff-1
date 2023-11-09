@@ -123,12 +123,12 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="title">
-								<h4>LEAVE DETAILS</h4>
+								<h4>BESOIN DETAILS</h4>
 							</div>
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="admin_dashboard.php">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Leave</li>
+									<li class="breadcrumb-item active" aria-current="page">Besoin</li>
 								</ol>
 							</nav>
 						</div>
@@ -138,7 +138,7 @@
 				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue h4">Leave Details</h4>
+							<h4 class="text-blue h4">Besoin Details</h4>
 							<p class="mb-20"></p>
 						</div>
 					</div>
@@ -166,69 +166,69 @@
 						<div class="row">
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
-									<label style="font-size:16px;"><b>Full Name</b></label>
+									<label style="font-size:16px;"><b>Nom et prénom</b></label>
 									<input type="text" class="selectpicker form-control" data-style="btn-outline-primary" readonly value="<?php echo htmlentities($result->FirstName." ".$result->LastName);?>">
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
-									<label style="font-size:16px;"><b>Email Address</b></label>
+									<label style="font-size:16px;"><b>Adresse e-mail</b></label>
 									<input type="text" class="selectpicker form-control" data-style="btn-outline-info" readonly value="<?php echo htmlentities($result->EmailId);?>">
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
-									<label style="font-size:16px;"><b>Gender</b></label>
+									<label style="font-size:16px;"><b>Genre</b></label>
 									<input type="text" class="selectpicker form-control" data-style="btn-outline-success" readonly value="<?php echo htmlentities($result->Gender);?>">
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
-									<label style="font-size:16px;"><b>Phone Number</b></label>
+									<label style="font-size:16px;"><b>Numéro de téléphone</b></label>
 									<input type="text" class="selectpicker form-control" data-style="btn-outline-primary" readonly value="<?php echo htmlentities($result->Phonenumber);?>">
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
-									<label style="font-size:16px;"><b>Leave Type</b></label>
+									<label style="font-size:16px;"><b>Type de besoin</b></label>
 									<input type="text" class="selectpicker form-control" data-style="btn-outline-info" readonly value="<?php echo htmlentities($result->LeaveType);?>">
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-12">
 								<div class="form-group">
-									<label style="font-size:16px;"><b>Applied Date</b></label>
+									<label style="font-size:16px;"><b>Date d'application</b></label>
 									<input type="text" class="selectpicker form-control" data-style="btn-outline-success" readonly value="<?php echo htmlentities($result->PostingDate);?>">
 								</div>
 							</div>
 
-							<div class="col-md-4 col-sm-12">
+							<!-- <div class="col-md-4 col-sm-12">
 								<div class="form-group">
 									<label style="font-size:16px;"><b>Applied No. of Days</b></label>
 									<input type="text" class="selectpicker form-control" data-style="btn-outline-info" readonly name="num_days" value="<?php echo htmlentities($result->num_days);?>">
 								</div>
-							</div>
-							<div class="col-md-4 col-sm-12">
+							</div> -->
+							<!-- <div class="col-md-4 col-sm-12">
 								<div class="form-group">
 									<label style="font-size:16px;"><b>Available No. of Days</b></label>
 									<input type="text" class="selectpicker form-control" data-style="btn-outline-info" readonly name="av_leave" value="<?php echo htmlentities($result->Av_leave);?>">
 								</div>
-							</div>
-							<div class="col-md-4">
+							</div> -->
+							<!-- <div class="col-md-4">
 								<div class="form-group">
 									<label style="font-size:16px;"><b>Leave Period</b></label>
 									<input type="text" class="selectpicker form-control" data-style="btn-outline-info" readonly value="From <?php echo htmlentities($result->FromDate);?> to <?php echo htmlentities($result->ToDate);?>">
 								</div>
-							</div>
+							</div> -->
 
 						</div>
-						<div class="form-group row">
+						<!-- <div class="form-group row">
 								<label style="font-size:16px;" class="col-sm-12 col-md-2 col-form-label"><b>Leave Reason</b></label>
 								<div class="col-sm-12 col-md-10">
 									<textarea name=""class="form-control text_area" readonly type="text"><?php echo htmlentities($result->Description);?></textarea>
 								</div>
-						</div>
+						</div> -->
 						<div class="form-group row">
-								<label style="font-size:16px;" class="col-sm-12 col-md-2 col-form-label"><b>Waiting Remarks</b></label>
+								<label style="font-size:16px;" class="col-sm-12 col-md-2 col-form-label"><b>Remarques en attente</b></label>
 								<div class="col-sm-12 col-md-10">
 									<?php
 									if ($result->AdminRemark==""): ?>
@@ -239,7 +239,7 @@
 								</div>
 						</div>
 						<div class="form-group row">
-								<label style="font-size:16px;" class="col-sm-12 col-md-2 col-form-label"><b>Reg. Remarks</b></label>
+								<label style="font-size:16px;" class="col-sm-12 col-md-2 col-form-label"><b>Rég. Remarques</b></label>
 								<div class="col-sm-12 col-md-10">
 									<?php
 									if ($result->registra_remarks==""): ?>
@@ -252,7 +252,7 @@
 						<div class="row">
 							<div class="col-md-3">
 								<div class="form-group">
-								   <label style="font-size:16px;"><b>Action Taken Date</b></label>
+								   <label style="font-size:16px;"><b>Date de demande</b></label>
 								   <?php
 									if ($result->AdminRemarkDate==""): ?>
 									  <input type="text" class="selectpicker form-control" data-style="btn-outline-primary" readonly value="<?php echo "NA"; ?>">
@@ -264,7 +264,7 @@
 							</div>
 							<div class="col-md-3">
 								<div class="form-group">
-									<label style="font-size:16px;"><b>Leave Status From HOD</b></label>
+									<label style="font-size:16px;"><b>Décision chef département</b></label>
 									<?php $stats=$result->Status;?>
 									<?php
 									if ($stats==1): ?>
@@ -280,7 +280,7 @@
 							</div>
 							<div class="col-md-3">
 								<div class="form-group">
-									<label style="font-size:16px;"><b>Registra/Registry Status</b></label>
+									<label style="font-size:16px;"><b>Statut registraire/registre</b></label>
 									<?php $stats=$result->admin_status;?>
 									<?php
 									if ($stats==1): ?>
@@ -304,7 +304,7 @@
 								<div class="form-group">
 									<label style="font-size:16px;"><b></b></label>
 									<div class="modal-footer justify-content-center">
-										<button class="btn btn-primary" id="action_take" data-toggle="modal" data-target="#success-modal">Take&nbsp;Action</button>
+										<button class="btn btn-primary" id="action_take" data-toggle="modal" data-target="#success-modal">Passer&nbsp;L'Action</button>
 									</div>
 								</div>
 							</div>
